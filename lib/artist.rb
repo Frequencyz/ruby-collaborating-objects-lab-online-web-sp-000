@@ -26,5 +26,9 @@ class Artist
    @@all
  end
  
- def find_or_create_by_name
+ def find_or_create_by_name(name)
+   find_by_name || create_by_name
+ end
+ 
+ 
 end 
