@@ -10,6 +10,11 @@ end
 def add_song(song)
   @songs << song
 end
+
+def songs
+  @songs
+end
+
   
 
 
