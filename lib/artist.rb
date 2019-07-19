@@ -2,22 +2,24 @@ class Artist
   
   @@all = []
   
-attr_accessor :name
+ attr_accessor :name
   
-def initialize(name)
+ def initialize(name)
   @name = name
   @songs =[]
-end
+ end
 
-def add_song(song)
+ def add_song(song)
   @songs << song
-end
+ end
 
-def songs
+ def songs
   @songs
-end
+ end
 
-  
+ def save
+   @@all << save
+ end
 
 
 
