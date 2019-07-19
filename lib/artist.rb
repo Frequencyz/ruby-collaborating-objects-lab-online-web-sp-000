@@ -1,6 +1,6 @@
 class Artist
   
-  @@all = []
+  @@all[]
   
 attr_accessor :name
   
